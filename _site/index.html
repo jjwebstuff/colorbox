@@ -8,13 +8,14 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <title>Color Box</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="resources/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="resources/css/colorbox.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -26,8 +27,8 @@
     <![endif]-->
   </head>
     <body>
-          <!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <!-- Fixed navbar -->
+<div id="top_navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -59,78 +60,75 @@
     </div><!--/.nav-collapse -->
   </div>
 </div>
-          
-              <div class="container">
-      <div class="row">
-        <div class="col-md-2">
-        <ul class="nav nav-pills nav-stacked">
-          <li class="dropdown">
-            <a id="drop1" role="button" data-toggle="dropdown" data-target="#" href="#">pretty paper</a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-              <li><a href="#">save the dates</a></li>
-              <li><a href="#">rehearsal dinner</a></li>
-              <li><a href="#">wedding</a></li>
-              <li><a href="#">details</a></li>
-              <li><a href="#">baby</a></li>
-              <li><a href="#">galas</a></li>
-              <li><a href="#">celebrations</a></li>
-              <li><a href="#">corporate</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a id="drop2" role="button" data-toggle="dropdown" data-target="#" href="#">about</a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
-              <li><a href="#">Action 1</a></li>
-              <li><a href="#">Action 2</a></li>
-              <li><a href="#">Action 3</a></li>
-              <li><a href="#">Action 4</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a id="drop3" role="button" data-toggle="dropdown" data-target="#" href="#">contact</a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
-              <li><a href="#">Action 1</a></li>
-              <li><a href="#">Action 2</a></li>
-              <li><a href="#">Action 3</a></li>
-              <li><a href="#">Action 4</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a id="drop4" role="button" data-toggle="dropdown" data-target="#" href="#">wholesale</a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
-              <li><a href="#">Action 1</a></li>
-              <li><a href="#">Action 2</a></li>
-              <li><a href="#">Action 3</a></li>
-              <li><a href="#">Action 4</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a id="drop5" role="button" data-toggle="dropdown" data-target="#" href="#">shop</a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="drop5">
-              <li><a href="#">Action 1</a></li>
-              <li><a href="#">Action 2</a></li>
-              <li><a href="#">Action 3</a></li>
-              <li><a href="#">Action 4</a></li>
-            </ul>
-          </li>
-        </ul>
-        </div>
-        <div class="col-md-10">
-        
-        </div>
-      </div>      
-    </div>
-
-          <div id="footer">
+        <div class="container">
+			<div class="row">
+			    <div id="side_navigation" class="col-sm-3 col-md-2">
+  <ul class="nav nav-pills nav-stacked">
+    <li class="dropdown">
+      <a id="drop1" role="button" data-toggle="dropdown" data-target="#" href="#">pretty paper</a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+        <li><a href="#">save the dates</a></li>
+        <li><a href="#">rehearsal dinner</a></li>
+        <li><a href="#">wedding</a></li>
+        <li><a href="#">details</a></li>
+        <li><a href="#">baby</a></li>
+        <li><a href="#">galas</a></li>
+        <li><a href="#">celebrations</a></li>
+        <li><a href="#">corporate</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="drop2" role="button" data-toggle="dropdown" data-target="#" href="#">about</a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+        <li><a href="#">Action 1</a></li>
+        <li><a href="#">Action 2</a></li>
+        <li><a href="#">Action 3</a></li>
+        <li><a href="#">Action 4</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="drop3" role="button" data-toggle="dropdown" data-target="#" href="#">contact</a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+        <li><a href="#">Action 1</a></li>
+        <li><a href="#">Action 2</a></li>
+        <li><a href="#">Action 3</a></li>
+        <li><a href="#">Action 4</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="drop4" role="button" data-toggle="dropdown" data-target="#" href="#">wholesale</a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
+        <li><a href="#">Action 1</a></li>
+        <li><a href="#">Action 2</a></li>
+        <li><a href="#">Action 3</a></li>
+        <li><a href="#">Action 4</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a id="drop5" role="button" data-toggle="dropdown" data-target="#" href="#">shop</a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="drop5">
+        <li><a href="#">Action 1</a></li>
+        <li><a href="#">Action 2</a></li>
+        <li><a href="#">Action 3</a></li>
+        <li><a href="#">Action 4</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+			    <div class="col-sm-9 col-md-10">
+			    	
+			    </div>
+			</div>      
+		</div>
+        <div id="footer">
   <div class="container">
     <p class="text-muted">Place sticky footer content here.</p>
   </div>
 </div>
-          <!-- Bootstrap core JavaScript
+        <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
     </body>
 </html>

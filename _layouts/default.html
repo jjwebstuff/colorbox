@@ -2,12 +2,16 @@
 <html>
   {% include head.html %}
     <body>
-          {% include top_navigation.html %}
-          
-          {{ content }}
-
-          {% include footer.html %}
-          {% include javascript_includes.html %}
-
+        {% include top_navigation.html %}
+        <div class="container">
+			<div class="row">
+			    {% include side_navigation.html %}
+			    <div class="col-sm-9 col-md-10">
+			    	{{ content }}
+			    </div>
+			</div>      
+		</div>
+        {% include footer.html %}
+        {% include javascript_includes.html %}
     </body>
 </html>

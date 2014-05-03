@@ -1,0 +1,36 @@
+@media(max-width:767px){
+	#side_navigation{
+		display: none !important;
+  		visibility: hidden !important;
+	}
+}
+@media(min-width:768px){
+	#top_navigation{
+		display: none !important;
+  		visibility: hidden !important;
+	}
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
+body{
+	background-image:url("../../resources/images/site_background.png");
+	background-repeat:repeat;
+}
+
+#side_navigation{
+	background-image:url("../../resources/images/sidebar_background.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: -50px;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: transparent;
+	outline: none
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background-color: transparent;
+	border: white;
+}
