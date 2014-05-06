@@ -37,6 +37,9 @@ body{
 .side-dropdown a {
     color: white!important;
 }
+.side-dropdown a:hover {
+    color: #93958E!important;
+}
 .nav>li>a:hover, .nav>li>a:focus {
 	background-color: transparent;
 	outline: none
@@ -172,6 +175,9 @@ body{
     	margin-top: 43px;
     	font-size: 20px;
 	}
+	.side-dropdown {
+		font-size: 20px;
+	}
 	.social_media{
 		margin-right: 67px;
 		margin-top: 80px;
@@ -182,16 +188,14 @@ body{
 		width: 32px;
 		margin-left: 9px;
 	}
-	
 	#facebook{background-position: 12px;}
 	#instagram{background-position: -35px 0;}
 	#pintrest{background-position: -79px 0;}
 	.main-background{
 		margin-left: -73px;
-	
 		margin-top: 17px;
 		min-height: 761px;
-}
+	}
 	.footer-info{
 		margin-top: -58px;
 		margin-left: -25px;

@@ -3,7 +3,5 @@ $(window).load(function() {
   // $('.flexslider').flexslider({
   //   animation: "slide"
   // });
- //  $('.nav .dropdown').hover(function() {
- //  		console.log("we are hovering")
-	// })
+ 
 });
