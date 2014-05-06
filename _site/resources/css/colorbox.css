@@ -121,6 +121,10 @@ body{
 	.main-background{
 		margin-left: -90px;
 	}
+	.frontpage-image{
+		height: 87px;
+		margin-left: -36px;
+	}
 	.footer-info{
 		margin-top: -44px;
 		margin-left: 9px;
@@ -151,10 +155,14 @@ body{
 	#facebook{background-position: 9px;}
 	#instagram{background-position: -28px 0;}
 	#pintrest{background-position: -64px 0;}
-	
+
 	.main-background{
 		margin-left: -80px;
 	}
+	.frontpage-image{
+		height: 116px;
+		margin-left: -35px;
+	}	
 	.footer-info{
 		margin-left: -43px;
 		font-size: 16px;
@@ -165,9 +173,14 @@ body{
 	.side-holder{
 		margin-right: 50px;
 	}
+
 	.main-background{
 		margin-left: -130px;
 	}
+	.frontpage-image{
+		height: 116px;
+		margin-left: -26px;
+	}	
 	.footer-info{
 		margin-left: -90px;
 	}	
@@ -210,4 +223,13 @@ body{
 		margin-left: -25px;
 		font-size: 16pt;
 	}	*/
+}
+
+.flex-direction-nav a:before{
+	font-family: "FontAwesome";
+	content: '\f0a8';
+	font-style: normal;
+}
+.flex-direction-nav a.flex-next:before{
+	content: "\f0a9";
 }

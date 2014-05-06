@@ -10,14 +10,18 @@
 
     <title>Color Box</title>
 
-    <!-- Google Fonts -->
+    <!-- CDN: Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Cardo:400italic' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap core CSS -->
+    <!-- CDN: Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CDN: Font Awesome CSS -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="resources/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="resources/css/flexslider.css" rel="stylesheet">
     <link href="resources/css/colorbox.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -100,7 +104,38 @@
 </div>
 			    <div class="col-sm-8 col-md-9">
 			    	<div class="main-background">
-			    		
+			    		<div class="row">
+  <div class="col-sm-offset-2 col-sm-8">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="resources/images/flexSlider/kitchen_adventurer_cheesecake_brownie.jpg">
+        </li>
+        <li>
+          <img src="resources/images/flexSlider/kitchen_adventurer_lemon.jpg">
+        </li>
+        <li>
+          <img src="resources/images/flexSlider/kitchen_adventurer_donut.jpg">
+        </li>
+        <li>
+          <img src="resources/images/flexSlider/kitchen_adventurer_caramel.jpg">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-offset-2 col-sm-3">
+    <img class="frontpage-image" src="resources/images/flexSlider/kitchen_adventurer_cheesecake_brownie.jpg">
+  </div>
+  <div class="col-sm-3">
+    <img class="frontpage-image" src="resources/images/flexSlider/kitchen_adventurer_donut.jpg">
+  </div>
+  <div class="col-sm-3">
+    <img class="frontpage-image" src="resources/images/flexSlider/kitchen_adventurer_caramel.jpg">
+  </div>
+</div>
+
 			    	</div>
 			    </div>
 			</div>
@@ -121,5 +156,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src="resources/js/colorbox.js"></script>
+<script src="resources/js/jquery.flexslider-min.js"></script>
     </body>
 </html>
