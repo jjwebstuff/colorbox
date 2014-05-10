@@ -5,6 +5,58 @@ body{
 	font-style: italic;
 	letter-spacing: 1px;
 }
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #00B6DE;
+}
+
+/* About Page Start */
+p, .panel-body{
+	color: #93958E;
+}
+.panel-body, .panel-title{
+	font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 11px;
+}
+.panel-body{
+	background-color: #F8F8F2!important;
+	border-top: none!important;
+	padding: 0 0 0 45px;
+    font-weight: 400;
+}
+.panel-group{
+	/* margin-left: -16px; */
+}
+.panel{
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.panel-heading{
+	background-color: #F8F8F2!important;
+	padding: 0;
+}
+.panel-title{
+    font-weight: 600;
+	color: #93958E;
+}
+.panel-title>a:hover{
+	text-decoration: none;
+}
+.selfie{
+	height: 115px;
+	/* width: inherit; */ 
+}
+.person{
+	text-align: center;
+}
+/* About Page End */
+
+/* Navbars Start */
 .navbar-header{
 	background-color: #F8F8F2;
 }
@@ -31,7 +83,7 @@ body{
 }
 .side-dropdown{
     left: 105px;
-    top: 13px;
+    top: 11px;
     background-color: #93958E;
 }
 .side-dropdown a {
