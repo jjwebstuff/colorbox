@@ -56,6 +56,18 @@ p, .panel-body{
 }
 /* About Page End */
 
+/* Contact Page Start */
+#contact-mail{width: 92px;}
+#contact-phone{width: 67px;}
+hr{
+	border-top: 3px solid #93958E;
+	margin: 10px 0 0 0;
+}
+.margintop50px{
+	margin-top: 50px;
+}
+/* Contact Page End */
+
 /* Navbars Start */
 .navbar-header{
 	background-color: #F8F8F2;
