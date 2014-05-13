@@ -1,5 +1,5 @@
 body{
-	background-image:url("../../resources/images/site_background.png");
+	background-image:url("../images/site_background.png");
 	background-repeat:repeat;
 	font-family: 'Cardo', serif;
 	font-style: italic;
@@ -61,10 +61,13 @@ p, .panel-body{
 #contact-phone{width: 67px;}
 hr{
 	border-top: 3px solid #93958E;
-	margin: 10px 0 0 0;
+	margin: 10px 0 19px 0;
 }
 .margintop50px{
 	margin-top: 50px;
+}
+.checkbox{
+	color: #93958E;
 }
 /* Contact Page End */
 
@@ -73,7 +76,7 @@ hr{
 	background-color: #F8F8F2;
 }
 #side_navigation{
-	background-image:url("../../resources/images/sidebar_background.png");
+	background-image:url("../images/sidebar_background.png");
 	background-repeat:no-repeat;
 	background-size:contain;
 	padding-top: 100px;
@@ -118,7 +121,7 @@ hr{
 	list-style-type: none;
 	background-repeat: no-repeat;
 }
-.CB{background-image: url("../../resources/images/social_media.png");}
+.CB{background-image: url("../images/social_media.png");}
 
 .main-background{
 	height: 589px;
@@ -190,7 +193,7 @@ hr{
 	#instagram{background-position: -28px 0;}
 	#pintrest{background-position: -64px 0;}
 	.main-background{
-		margin-left: -90px;
+		margin-left: -91px;
 		padding-left: 90px;
 	}
 	.frontpage-image{
