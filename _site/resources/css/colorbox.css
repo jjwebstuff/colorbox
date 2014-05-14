@@ -69,6 +69,21 @@ hr{
 .checkbox{
 	color: #93958E;
 }
+.more{
+	margin-top: 10px;
+}
+.form-control{
+	background-color: #ECE6E4;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	margin-bottom: 10px;
+}
+#contact-submit{
+    margin-top: 7px;
+    color: #93958E;
+}
 /* Contact Page End */
 
 /* Navbars Start */
@@ -251,6 +266,10 @@ hr{
 		margin-left: -43px;
 		font-size: 16px;
 	}	
+	/*contact form*/
+	#contact-submit{
+    	margin-left: -33px;
+	}
 }
 @media(min-width:1200px){
 	/* lg */

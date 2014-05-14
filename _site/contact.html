@@ -159,16 +159,27 @@
 <div class="row">
 	<form role="form">
 		<div class="col-md-6">
-		  
-		    <input class="form-control" id="name" placeholder="name(s)">
-		    <input class="form-control" id="email" placeholder="email" type="email">
-		    <input class="form-control" id="phone" placeholder="phone">
-		    <input class="form-control" id="address" placeholder="address">
-		    <input class="form-control" id="address2" placeholder="city/state/zip">
-		    <br>
-		    <p>
-		    	please select the items you’re interested in:
-		    </p>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="name" placeholder="name(s)">
+		    </div>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="email" placeholder="email" type="email">
+		    </div>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="phone" placeholder="phone">
+		    </div>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="address" placeholder="address">
+		    </div>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="quantity" placeholder="quantity">
+		    </div>
+		    <div class="clearfix"></div>
+		    <div class="more">
+				<p>
+			    	please select the items you’re interested in:
+			    </p>
+			</div>
 			<div class="checkbox">
 			    <label>
 					<input type="checkbox">save the date (corporate / wedding)
@@ -213,6 +224,35 @@
 			    <label>
 			  		<input type="checkbox">other (please describe)
 			  	</label>
+			</div>
+		</div>
+		<div class="col-md-6">
+		    <div class="col-md-11">
+		    	<input class="form-control" id="event_date" placeholder="event date">
+		    </div>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="date_to_mail_invitations" placeholder="date to mail invitations">
+		    </div>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="event_type" placeholder="event type">
+		    </div>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="budget" placeholder="budget">
+		    </div>
+		    <div class="col-md-11">
+		    	<input class="form-control" id="quantity" placeholder="city/state/zip">
+		    </div>
+		    <div class="col-md-11 more">
+				<textarea class="form-control" id="tell_us_more" rows="9" placeholder="tell us more"></textarea>
+		    </div>
+		   	<div class="clearfix"></div>
+		    <div class="col-md-8 more">
+				<p>
+			    	*All fields required
+			    </p>
+			</div>
+		    <div class="col-md-4">
+		    	<button id="contact-submit" type="submit" class="btn btn-default form-control">SUBMIT</button>
 			</div>
 		</div>
 	</form>
