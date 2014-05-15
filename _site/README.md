@@ -1,4 +1,4 @@
-jjsiddall.github.io
+Color box
 ===================
 
-A site for showing people what I am building them
+A Jekyll-based site for www.colorboxletterpress.com

@@ -57,11 +57,15 @@ p, .panel-body{
 /* About Page End */
 
 /* Contact Page Start */
-#contact-mail{width: 92px;}
-#contact-phone{width: 67px;}
+/*#contact-mail{width: 82px;}
+#contact-phone{width: 82px;}*/
+.contact{
+	width: 82px;
+	margin-right: 11px;
+}
 hr{
 	border-top: 3px solid #93958E;
-	margin: 10px 49px 19px 0;
+	margin: 10px 64px 19px 0;
 }
 .margintop50px{
 	margin-top: 50px;
@@ -80,9 +84,17 @@ hr{
 	-webkit-box-shadow: none;
 	margin-bottom: 10px;
 }
-#contact-submit{
-    margin-top: 7px;
+.submit{
+    /* margin-top: 7px; */
     color: #93958E;
+}
+#wholesale-submit{
+	/* margin-left: 15px; */
+	/* margin-top:  0px; */
+}
+.margin-left-15px{
+	margin-left: 15px;
+	/* max-width: 484px; */
 }
 /* Contact Page End */
 
@@ -174,6 +186,10 @@ hr{
 		margin-top: 8px;
 		margin-left: 3px;
 	}
+	hr, .top-line{
+		margin-right: 30px;
+	}
+	.top-line	
 }
 @media(min-width:768px){
 	/* sm */
@@ -224,6 +240,9 @@ hr{
 		margin-top: -44px;
 		margin-left: 9px;
 		/* font-size: 14px; */
+	}
+	hr, .top-line{
+		/* margin-right: 28px; */
 	}		
 }
 @media(min-width:992px){
@@ -267,9 +286,15 @@ hr{
 		font-size: 16px;
 	}	
 	/*contact form*/
-	#contact-submit{
-    	margin-left: -33px;
+	.submit{
+    	margin-left: 15px;
 	}
+	h
+	#wholesale-submit{
+		margin-left: -50px
+	}r, .top-line{
+		margin-right: 64px;
+	}		
 }
 @media(min-width:1200px){
 	/* lg */
