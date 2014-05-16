@@ -14,7 +14,7 @@ h1{
 }
 
 /* About Page Start */
-p, .panel-body{
+p, p a, .panel-body{
 	color: #93958E;
 }
 .panel-body, .panel-title{
@@ -69,6 +69,13 @@ hr{
 }
 .margintop50px{
 	margin-top: 50px;
+}
+.marginbottom50px{
+	margin-bottom: 50px;
+}
+.paddingtopbottom20px{
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .checkbox{
 	color: #93958E;
@@ -159,8 +166,11 @@ hr{
 	z-index: 0;
 	overflow: auto;
 }
-.footer-info, .instagram-label{
+.footer-info, .footer-info a, .instagram-label{
 	color: #00B6DE;
+}
+.under-construction{
+	margin-bottom: -39px;
 }
 @media(max-width:767px){
 	/* xs */
