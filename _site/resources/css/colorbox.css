@@ -65,7 +65,7 @@ p, p a, .panel-body{
 }
 hr{
 	border-top: 3px solid #93958E;
-	margin: 10px 64px 19px 0;
+	/* margin: 10px 64px 19px 0; */
 }
 .margintop50px{
 	margin-top: 50px;
@@ -95,10 +95,7 @@ hr{
     /* margin-top: 7px; */
     color: #93958E;
 }
-#wholesale-submit{
-	/* margin-left: 15px; */
-	/* margin-top:  0px; */
-}
+
 .margin-left-15px{
 	margin-left: 15px;
 	/* max-width: 484px; */
@@ -109,7 +106,7 @@ hr{
 .navbar-header{
 	background-color: #F8F8F2;
 }
-#side_navigation{
+.side_navigation{
 	background-image:url("../images/sidebar_background.png");
 	background-repeat:no-repeat;
 	background-size:contain;
@@ -120,14 +117,14 @@ hr{
     text-align: center;
 	z-index: 1;
 }
-#side_navigation .nav {
+.side_navigation .nav {
     display: inline-block;
 }
-#side_navigation a {
+.side_navigation a {
     color: #93958E;
     margin-top: -3px;
 }
-#side_navigation .logo{
+.side_navigation .logo{
 	width: 142px;
 }
 .side-dropdown{
@@ -172,42 +169,37 @@ hr{
 .under-construction{
 	margin-bottom: -39px;
 }
+.flex-direction-nav a:before{
+	font-family: "FontAwesome";
+	content: '\f0a8';
+	font-style: normal;
+}
+.flex-direction-nav a.flex-next:before{
+	content: "\f0a9";
+}
 @media(max-width:767px){
 	/* xs */
-	#side_navigation{
-		display: none !important;
-  		visibility: hidden !important;
-	}
 	.navbar .logo{
   		width: 49px;
 		margin-top: -14px;
-	}
-	.main-background{
-		/* min-height: 585px; */
 	}
 	.instagram-label{
 	    margin-left: 19px;
 	}
 	.frontpage-image{
 		height: 422px;
-		/* margin-left: -35px; */
 	}	
 	.footer-info{
 		margin-top: 8px;
 		margin-left: 3px;
 	}
 	hr, .top-line{
-		margin-right: 30px;
+		margin-right: 0px;
 	}
-	.top-line	
 }
 @media(min-width:768px){
 	/* sm */
-	#top_navigation{
-		display: none !important;
-  		visibility: hidden !important;
-	}
-	#side_navigation .nav {
+	.side_navigation .nav {
     	margin-right: 30px;
     	margin-top: 27px;
 	}
@@ -215,7 +207,7 @@ hr{
 	ul.nav li.dropdown:hover > ul.dropdown-menu {
     	display: block;    
 	}
-	#side_navigation .logo{
+	.side_navigation .logo{
 		padding-right: 25px;
 		margin-top: -27px;
 		margin-right: 6px;
@@ -257,11 +249,11 @@ hr{
 }
 @media(min-width:992px){
 	/* md */
-	#side_navigation .nav {
+	.side_navigation .nav {
     	margin-right: 23px;
     	margin-top: 28px;
 	}	
-	#side_navigation .logo{
+	.side_navigation .logo{
 		padding-right: 25px;
 		margin-top: -27px;
 		margin-right: -1px;
@@ -329,11 +321,3 @@ hr{
 	}	
 }
 
-.flex-direction-nav a:before{
-	font-family: "FontAwesome";
-	content: '\f0a8';
-	font-style: normal;
-}
-.flex-direction-nav a.flex-next:before{
-	content: "\f0a9";
-}
