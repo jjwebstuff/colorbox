@@ -1,0 +1,133 @@
+.da-thumbs {
+	list-style: none;
+	position: relative;
+	padding: 0;
+	margin-left: 39px;
+	margin-top: 19px;
+}
+.da-thumbs li {
+	float: left;
+	position: relative;
+	margin: 16px;
+	/* color: white; */
+}
+
+.da-thumbs li a .pretty-paper-thumb {
+	display: block;
+	position: relative;
+}
+.da-thumbs li a {
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+.da-thumbs li a .pretty-paper-overlay {
+	position: absolute;
+	background: #333;
+	background: rgba(75,75,75,0.7);
+	width: 100%;
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-size: 11pt;
+	font-weight: 600;
+}
+.da-thumbs li a .pretty-paper-overlay span {
+	display: block;
+	padding: 10px 0;
+	margin: 50px 0 0 0;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+	text-align: center;
+}
+.da-thumbs li a .pretty-paper-overlay {
+	top: 0px;
+	left: 0px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	/* vertical-align: middle; */
+	border-radius: 7px;
+}
+.da-thumbs li a:hover .pretty-paper-overlay{
+	top: -100%;
+}
+.pretty-paper-thumb{
+	width: 154px;
+	height: 154px;
+	background: url(../images/tn_grid.png);
+	background-size: 566px;
+	background-repeat: no-repeat;
+	/* border-top-right-radius: 0px; */
+}
+#save-the-dates{
+	background-position-x: -45px;
+	background-position-y: -20px;
+}
+#rehearsal-dinners{
+	background-position-x: -212px;
+	background-position-y: -20px;
+}
+#weddings{
+	background-position-x: -378px;
+	background-position-y: -20px;
+}
+#details{
+	background-position-x: -45px;
+	background-position-y: -188px;
+}
+#galas{
+	background-position-x: -212px;
+	background-position-y: -188px;
+}
+#celebrations{
+	background-position-x: -378px;
+	background-position-y: -188px;
+}
+#corporate{
+	background-position-x: -45px;
+	background-position-y: -354px;
+}
+#baby{
+	background-position-x: -212px;
+	background-position-y: -354px;
+}
+
+#outside-the-envelope{
+	background-position-x: -378px;
+	background-position-y: -354px;
+}
+
+@media(max-width:767px){
+	/* xs */
+	.da-thumbs{
+		margin-left: 95px;
+		margin-top: 19px;
+	}
+
+}
+@media(min-width:768px){
+	/* sm */
+	.da-thumbs{
+		margin-left: 22px;
+		margin-top: 8px;
+	}
+}
+@media(min-width:992px){
+	/* md */
+	.da-thumbs{
+		margin-left: 54px;
+		margin-top: 17px;
+	}
+}
+@media(min-width:1200px){
+	/* lg */
+	.da-thumbs{
+		margin-left: 108px;
+		margin-top: 17px;
+	
+		margin-right: 34px;
+}
+}
