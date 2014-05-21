@@ -1,6 +1,5 @@
 body{
-	background-image:url("../images/site_background.png");
-	background-repeat:repeat;
+	background-color: #F8F8F2;
 	font-family: 'Cardo', serif;
 	font-style: italic;
 	letter-spacing: 1px;
@@ -27,6 +26,7 @@ p, p a, .panel-body{
 	border-top: none!important;
 	padding: 0 0 0 45px;
     font-weight: 400;
+	line-height: 170%;
 }
 .panel-group{
 	/* margin-left: -16px; */
@@ -60,12 +60,20 @@ p, p a, .panel-body{
 /*#contact-mail{width: 82px;}
 #contact-phone{width: 82px;}*/
 .contact{
-	width: 82px;
+	width: 68px;
 	margin-right: 11px;
+}
+.contact-info{
+    margin-top: -5px;
 }
 hr{
 	border-top: 3px solid #93958E;
-	/* margin: 10px 64px 19px 0; */
+}
+.margin-left-15px{
+	margin-left: 15px;
+}
+.margintop20px{
+	margin-top: 20px;
 }
 .margintop50px{
 	margin-top: 50px;
@@ -94,11 +102,6 @@ hr{
 .submit{
     /* margin-top: 7px; */
     color: #93958E;
-}
-
-.margin-left-15px{
-	margin-left: 15px;
-	/* max-width: 484px; */
 }
 /* Contact Page End */
 
@@ -157,11 +160,9 @@ hr{
 .main-background{
 	height: 589px;
 	background-color: #F8F8F2;
-	border-color: #93958E;
-	border-style: solid;
-	border-width: 2px;
 	z-index: 0;
-	overflow: auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 .footer-info, .footer-info a, .instagram-label{
 	color: #00B6DE;
@@ -194,7 +195,7 @@ hr{
 		margin-left: 3px;
 	}
 	hr, .top-line{
-		margin-right: 0px;
+		/* margin-right: 0px; */
 	}
 }
 @media(min-width:768px){
@@ -244,7 +245,7 @@ hr{
 		/* font-size: 14px; */
 	}
 	hr, .top-line{
-		/* margin-right: 28px; */
+		/* margin-right: 77px; */
 	}		
 }
 @media(min-width:992px){
@@ -294,9 +295,30 @@ hr{
 	h
 	#wholesale-submit{
 		margin-left: -50px
-	}r, .top-line{
-		margin-right: 64px;
-	}		
+	}
+	hr, .top-line{
+		margin-right: 61px;
+	}
+	.marginleft{
+    	margin-left: -26px;
+	}
+	.contact-info{
+	    margin-top: -5px;
+	}
+	.contact{
+		width: 57px;
+		margin-right: 0px;
+		margin-left: -4px;
+	}
+	.main-background{
+		border-color: #93958E;
+		border-style: solid;
+		border-width: 2px;
+	}
+	body{
+		background-image:url("../images/site_background.png");
+		background-repeat:repeat;
+	}
 }
 @media(min-width:1200px){
 	/* lg */
@@ -314,11 +336,20 @@ hr{
 	}
 	.instagram-label{
 	    margin-left: -27px;
-    	
 	    margin-top: -30px;
 	}		
 	.footer-info{
 		margin-left: -90px;
-	}	
+	}
+	hr, .top-line{
+		margin-right: 73px;
+	}
+	.marginleft{
+    	margin-left: -20px;
+	}
+	.contact{
+		width: 68px;
+		margin-right: 11px;
+	}		
 }
 
