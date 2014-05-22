@@ -17,7 +17,7 @@ var jump=function(e)
 
 }
 
-$('.main-background').hide();
+
 
 $(document).ready(function()
 {
@@ -46,6 +46,7 @@ $(document).ready(function()
     });
   }
   else{
+    $('.main-background').hide();
     //if we are not on the About.html page then we need to jump to the page and then
     //do a smooth scroll to the section we want
     $('a[href^=#]').bind("click", jump);
