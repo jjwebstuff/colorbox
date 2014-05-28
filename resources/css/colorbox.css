@@ -75,7 +75,7 @@ hr{
 .margintop20px{
 	margin-top: 20px;
 }
-.margintop50px{
+.margintop50px, .margin-for-slider{
 	margin-top: 50px;
 }
 .marginbottom50px{
@@ -351,6 +351,11 @@ hr{
 	.contact{
 		width: 68px;
 		margin-right: 11px;
+	}
+	.margin-for-slider{
+		margin-top: 34px;
+		margin-left: -58px;
+		margin-right: -39px;
 	}		
 }
 
