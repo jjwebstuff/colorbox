@@ -76,7 +76,8 @@ hr{
 	margin-top: 20px;
 }
 .margintop50px{
-	margin-top: 50px;
+	/* margin-top: 50px; */
+	margin-left: -112px;
 }
 .marginbottom50px{
 	margin-bottom: 50px;
