@@ -45,6 +45,30 @@ $(document).ready(function()
       $('.main-background').scrollTo($("#custom"), 1000);
     });
   }
+  else if (location.pathname === "/shop.html"){
+    //if we ARE on the shop.html page then we need to smooth scroll to where ever
+    //the user is trying to
+    $("#shop-greetingcards").click(function(e) {
+      e.preventDefault();
+      $('.main-background').scrollTo($("#greetingcards"), 1000);
+    });
+    $("#shop-gifttags").click(function(e) {
+      e.preventDefault();
+      $('.main-background').scrollTo($("#gifttags"), 1000);
+    });
+    $("#shop-notebooksjournals").click(function(e) {
+      e.preventDefault();
+      $('.main-background').scrollTo($("#notebooksjournals"), 1000);
+    });
+    $("#shop-calendars").click(function(e) {
+      e.preventDefault();
+      $('.main-background').scrollTo($("#calendars"), 1000);
+    });
+    $("#shop-prints").click(function(e) {
+      e.preventDefault();
+      $('.main-background').scrollTo($("#prints"), 1000);
+    });
+  }
   else{
     $('.main-background').hide();
     //if we are not on the About.html page then we need to jump to the page and then
