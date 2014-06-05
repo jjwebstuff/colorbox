@@ -52,6 +52,10 @@ $(document).ready(function()
       e.preventDefault();
       $('.main-background').scrollTo($("#greetingcards"), 1000);
     });
+    $("#shop-notecards").click(function(e) {
+      e.preventDefault();
+      $('.main-background').scrollTo($("#notecards"), 1000);
+    });
     $("#shop-gifttags").click(function(e) {
       e.preventDefault();
       $('.main-background').scrollTo($("#gifttags"), 1000);
