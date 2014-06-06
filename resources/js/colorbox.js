@@ -12,6 +12,7 @@ $(window).load(function() {
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 	  ga('create', 'UA-51710264-1', 'colorboxletterpress.com');
+	  ga('require', 'displayfeatures');
 	  ga('send', 'pageview');
 
 });
