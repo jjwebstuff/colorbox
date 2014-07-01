@@ -176,6 +176,7 @@ hr{
     color: #F8F8F2;
     font-size: 10px;
     width: 119px;
+    border-radius: 10px;
 }
 .CB{background-image: url("../images/social_media.png");}
 
