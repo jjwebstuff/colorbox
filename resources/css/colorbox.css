@@ -28,9 +28,6 @@ p, p a, .panel-body{
     font-weight: 400;
 	line-height: 170%;
 }
-.panel-group{
-	/* margin-left: -16px; */
-}
 .panel{
 	border: none;
 	-webkit-box-shadow: none;
@@ -49,7 +46,6 @@ p, p a, .panel-body{
 }
 .selfie{
 	height: 115px;
-	/* width: inherit; */ 
 }
 .person{
 	text-align: center;
@@ -57,8 +53,6 @@ p, p a, .panel-body{
 /* About Page End */
 
 /* Contact Page Start */
-/*#contact-mail{width: 82px;}
-#contact-phone{width: 82px;}*/
 .contact{
 	width: 68px;
 	margin-right: 11px;
@@ -103,7 +97,6 @@ hr{
 	margin-bottom: 10px;
 }
 .submit{
-    /* margin-top: 7px; */
     color: #93958E;
 }
 /* Contact Page End */
@@ -152,9 +145,6 @@ hr{
 	background-color: transparent;
 	border: white;
 }
-ul.nav.nav-pills.nav-stacked{
-	/* margin-bottom: -10px; */
-}
 .social_media li{
 	display: inline-block;
 	list-style-type: none;
@@ -180,6 +170,7 @@ ul.nav.nav-pills.nav-stacked{
     font-size: 12px;
     width: 119px;
     border-radius: 10px;
+    background-color: #93958E;
 }
 .CB{background-image: url("../images/social_media.png");}
 
@@ -212,18 +203,12 @@ ul.nav.nav-pills.nav-stacked{
   		width: 49px;
 		margin-top: -14px;
 	}
-	.instagram-label{
-	    /* margin-left: 19px; */
-	}
 	.frontpage-image{
 		height: 422px;
 	}	
 	.footer-info{
 		margin-top: 8px;
 		margin-left: 3px;
-	}
-	hr, .top-line{
-		/* margin-right: 0px; */
 	}
 }
 @media(min-width:768px){
@@ -262,15 +247,8 @@ ul.nav.nav-pills.nav-stacked{
 		height: 148px;
 		margin-left: 0px;
 	}
-	.instagram-label{
-	    /* margin-left: -19px; */
-    	
-	    /* margin-top: -43px; */
-	}	
 	.footer-info{
-		/* margin-top: -44px; */
 		margin-left: -28px;
-		/* font-size: 10px; */
 	}
 	hr, .top-line{
 		margin-right: 43px;
@@ -320,9 +298,6 @@ ul.nav.nav-pills.nav-stacked{
 		height: 90px;
 		margin-left: 0px;
 	}
-	.instagram-label{
-	    /* margin-left: -58px; */
-	}	
 	.footer-info{
 		margin-left: -80px;
 		font-size: 15px;
@@ -331,7 +306,6 @@ ul.nav.nav-pills.nav-stacked{
 	.submit{
     	margin-left: 15px;
 	}
-	h
 	#wholesale-submit{
 		margin-left: -50px
 	}
