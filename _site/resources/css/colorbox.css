@@ -369,4 +369,7 @@ hr{
     	margin-left: 121px;
 	}		
 }
-
+/* Modals */
+.modal-content{
+	background-color: #F8F8F2;
+}
