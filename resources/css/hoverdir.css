@@ -57,48 +57,19 @@
 .pretty-paper-thumb{
 	width: 185px;
 	height: 185px;
-	background: url(../images/pretty-paper-thumbnails.png);
+	background: url(../images/grid.png);
 	background-size: 802px;
 	background-repeat: no-repeat;
 	/* border-top-right-radius: 0px; */
 }
-#save-the-dates{
-	background-position-x: -206px;
-	background-position-y: 0px;
-}
-#rehearsal-dinners{
-	background-position-x: -412px;
-	background-position-y: 0px;
-}
-#weddings{
-	background-position-x: -618px;
-	background-position-y: 0px;
-}
-#details{
-	background-position-x: -45px;
-	background-position-y: -188px;
-}
-#galas{
-	background-position-x: 0px;
-	background-position-y: -214px;
-}
-#celebrations{
-	background-position-x: 0px;
-	background-position-y: 0px;
-}
-#corporate{
-	background-position-x: -206px;
-	background-position-y: -214px;
-}
-#baby{
-	background-position-x: -412px;
-	background-position-y: -214px;
-}
-
-#outside-the-envelope{
-	background-position-x: -618px;
-	background-position-y: -214px;
-}
+#celebration{background-position: 0px 0px, top ;}
+#save-the-date{background-position: -206px 0px, top ;}
+#rehearsal-dinner{background-position: -412px 0px, top ;}
+#wedding{background-position: -618px 0px, top ;}
+#galas{background-position: 0px -214px, top ;}
+#branding{background-position: -206px -214px, top ;}
+#baby{background-position: -412px -214px, top ;}
+#cute-and-lovely{background-position: -618px -214px, top ;}
 
 @media(max-width:767px){
 	/* xs */

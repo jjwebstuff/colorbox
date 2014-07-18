@@ -79,7 +79,7 @@ $(document).ready(function()
     $('.main-background').hide();
     //if we are not on the About.html page then we need to jump to the page and then
     //do a smooth scroll to the section we want
-    $('a[href^=#]').bind("click", jump);
+    // $('a[href^=#]').bind("click", jump);
   }
     if (location.hash){
         setTimeout(function(){
