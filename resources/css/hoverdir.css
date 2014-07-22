@@ -70,35 +70,3 @@
 #branding{background-position: -206px -214px, top ;}
 #baby{background-position: -412px -214px, top ;}
 #cute-and-lovely{background-position: -618px -214px, top ;}
-
-@media(max-width:767px){
-	/* xs */
-	.da-thumbs{
-		margin-left: 95px;
-		margin-top: 19px;
-	}
-
-}
-@media(min-width:768px){
-	/* sm */
-	.da-thumbs{
-		margin-left: 22px;
-		margin-top: 8px;
-	}
-}
-@media(min-width:992px){
-	/* md */
-	.da-thumbs{
-		margin-left: 54px;
-		margin-top: 17px;
-	}
-}
-@media(min-width:1200px){
-	/* lg */
-	.da-thumbs{
-		margin-left: -64px;
-		margin-top: 74px;
-	
-		margin-right: 34px;
-}
-}
