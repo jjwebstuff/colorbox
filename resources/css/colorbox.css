@@ -54,11 +54,8 @@ p, p a, .panel-body{
 
 /* Contact Page Start */
 .contact{
-/*	width: 68px;
-	margin-right: 11px;*/
-	width: 57px;
-	margin-right: 0px;
-	margin-left: -4px;
+	width: 68px;
+	margin-right: 11px;
 }
 .contact-info{
     margin-top: -5px;
@@ -101,7 +98,6 @@ hr{
 }
 .submit{
     color: #93958E;
-	margin-left: 15px;    
 }
 /* Contact Page End */
 
@@ -122,10 +118,6 @@ hr{
 }
 .side_navigation .nav {
     display: inline-block;
-    
-    /* due to IE */
-    margin-right: 23px;
-    margin-top: 28px;
 }
 .side_navigation a {
     color: #93958E;
@@ -133,11 +125,6 @@ hr{
 }
 .side_navigation .logo{
 	width: 142px;
-
-	/* due to IE */
-	padding-right: 25px;
-	margin-top: -27px;
-	margin-right: -1px;
 }
 .side-dropdown{
     left: 105px;
@@ -158,24 +145,19 @@ hr{
 	background-color: transparent;
 	border: white;
 }
-.social_media{
-	margin-right: 72px;
-	margin-top: 35px;
-}
 .social_media li{
 	display: inline-block;
 	list-style-type: none;
 	background-repeat: no-repeat;
-	background-size: 83px 23px;
-	height: 24px;
-	width: 25px;
-	margin-left: 5px;
 }
 .sign-up{
     width: 119px;	
     margin-left: 34px;
     margin-bottom: -22px;
     margin-top: -5px;
+}
+.sign-up-header{
+
 }
 .sign-up-body{
     font-size: 10px;
@@ -197,17 +179,10 @@ hr{
 	z-index: 0;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	height: 720px;
-	margin-left: -80px;
-	padding-left: 80px;
 }
 .footer-info, .footer-info a, .instagram-label{
 	color: #00B6DE;
 }
-.footer-info{
-	margin-left: -80px;
-	font-size: 15px;
-}	
 .under-construction{
 	margin-bottom: -39px;
 }
@@ -222,30 +197,6 @@ hr{
 .footer-info{
 	margin-top: 10px;
 }
-#facebook{background-position: 9px;}
-#instagram{background-position: -28px 0;}
-#pintrest{background-position: -64px 0;}
-.frontpage-image{
-	height: 90px;
-	margin-left: 0px;
-}
-#wholesale-submit{
-	margin-left: -50px
-}
-hr, .top-line{
-	margin-right: 61px;
-}
-.marginleft{
-	margin-left: -26px;
-}
-.scootched{
-	margin-left: 47px;
-}
-.da-thumbs{
-	margin-left: 54px;
-	margin-top: 17px;
-}
-
 @media screen and (max-width: 767px) {
 	.navbar .logo{
   		width: 49px;
