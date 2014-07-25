@@ -197,6 +197,12 @@ hr{
 .footer-info{
 	margin-top: 10px;
 }
+#gallery-carousel{
+	margin-left: 0px;
+	border: 4px solid #fff;
+	border-radius: 4px;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
 @media screen and (max-width: 767px) {
 	.navbar .logo{
   		width: 49px;
@@ -268,7 +274,7 @@ hr{
 		border-width: 2px;
 	}
 	.da-thumbs{
-		margin-left: 22px;
+		margin-left: 0px;
 		margin-top: 8px;
 	}		
 }
@@ -332,9 +338,12 @@ hr{
     	margin-left: 47px;
 	}
 	.da-thumbs{
-		margin-left: 54px;
+		margin-left: 0px;
 		margin-top: 17px;
 	}	
+	#gallery-carousel{
+		margin-left: 19px;
+	}
 }
 @media screen and (min-width: 1200px){
 	.side-holder{
@@ -380,13 +389,6 @@ hr{
 		margin-top: 74px;
 		margin-right: 34px;
 	}		
-}
-#gallery-carousel{
-	margin-left: 19px;
-	/* padding-left: 16px; */
-	border: 4px solid #fff;
-	border-radius: 4px;
-	box-shadow: 0 1px 4px rgba(0,0,0,.2);
 }
 .carousel-control.left{
 	background-image: none;
