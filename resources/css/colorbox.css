@@ -222,6 +222,8 @@ hr{
 		margin-left: 95px;
 		margin-top: 19px;
 	}
+	.slider-arrow-left{ margin-left: -23px; }
+	.slider-arrow-right{ margin-right: -23px; }
 }
 @media screen and (min-width: 768px) {
 	.side_navigation .nav {
@@ -274,9 +276,11 @@ hr{
 		border-width: 2px;
 	}
 	.da-thumbs{
-		margin-left: 0px;
+		margin-left: 26px;
 		margin-top: 8px;
-	}		
+	}
+	.slider-arrow-left{ margin-left: -49px; }
+	.slider-arrow-right{ margin-right: -49px; }		
 }
 @media screen and (min-width: 992px){
 	.side_navigation .nav {
@@ -338,12 +342,14 @@ hr{
     	margin-left: 47px;
 	}
 	.da-thumbs{
-		margin-left: 0px;
-		margin-top: 17px;
+		margin-left: -27px;
+		margin-top: 63px;
 	}	
 	#gallery-carousel{
 		margin-left: 19px;
 	}
+	.slider-arrow-left{ margin-left: -62px;}
+	.slider-arrow-right{ margin-right: -62px; }
 }
 @media screen and (min-width: 1200px){
 	.side-holder{
@@ -385,10 +391,12 @@ hr{
     	margin-left: 121px;
 	}
 	.da-thumbs{
-		margin-left: -64px;
-		margin-top: 74px;
-		margin-right: 34px;
-	}		
+		margin-left: 18px;
+		margin-top: 63px;
+		/* margin-right: 34px; */
+	}
+	.slider-arrow-left{ margin-left: -76px; }
+	.slider-arrow-right{ margin-right: -76px; }		
 }
 .carousel-control.left{
 	background-image: none;
@@ -397,9 +405,13 @@ hr{
 	background-image: none;
 }
 .slider-arrows{
-	margin-top: 195%;
+	margin-top: 31%;
+	z-index: 50;
 }
 .gallery-label{
     margin-left: 19px;
 	
+}
+.pp-thumb{
+    border-radius: 12px;
 }
