@@ -218,19 +218,11 @@ hr{
 	}
 	.slider-arrows{
 		height: 30px;
-<<<<<<< HEAD
 	}
 	.da-thumbs{
 		margin-left: 95px;
 		margin-top: 19px;
 	}
-=======
-	}
-	.da-thumbs{
-		margin-left: 95px;
-		margin-top: 19px;
-	}
->>>>>>> NY-show-updates-May-10
 	.slider-arrow-left{ margin-left: -23px; }
 	.slider-arrow-right{ margin-right: -23px; }
 }
