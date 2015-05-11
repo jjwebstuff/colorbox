@@ -1,20 +1,11 @@
-<div id="" class="col-sm-4 col-md-3 hidden-xs side_navigation">
+<div class="col-sm-4 col-md-3 hidden-xs side_navigation">
   <div class="side-holder">
     <a href="index.html"><img class="logo" src="../resources/images/cb-logo.png"></a>
     <ul class="nav nav-pills nav-stacked">
       <li class="dropdown">
         <a href="pretty-paper.html">pretty paper</a>
         <ul class="dropdown-menu side-dropdown" role="menu" aria-labelledby="paper-drop">
-          <li><a href="pretty-paper.html">save the dates</a></li>
-          <li><a href="pretty-paper.html">rehearsal dinner</a></li>
-          <li><a href="pretty-paper.html">wedding</a></li>
-          <li><a href="pretty-paper.html">cute & lovely</a></li>
-          <li><a href="pretty-paper.html">details</a></li>
-          <li><a href="pretty-paper.html">baby</a></li>
-          <li><a href="pretty-paper.html">galas</a></li>
-          <li><a href="pretty-paper.html">celebrations</a></li>
-          <li><a href="pretty-paper.html">corporate</a></li>
-          <li><a href="pretty-paper.html">outside the envelope</a></li>
+          {% include navigation_links.html %}
         </ul>
       </li>
       <li class="dropdown">
@@ -32,6 +23,7 @@
       <li class="dropdown">
         <a href="shop.html">shop</a>
         <ul class="dropdown-menu side-dropdown" role="menu" aria-labelledby="shop-drop">
+          <li><a href="https://www.etsy.com/shop/colorboxletterpress" target="_blank">Etsy Shop</a></li>
           <li><a href="shop.html#greetingcards" id="shop-greetingcards">greeting cards</a></li>
           <li><a href="shop.html#notecards" id="shop-notecards">notecards</a></li>
           <li><a href="shop.html#gifttags" id="shop-gifttags">gift tags</a></li>
@@ -49,7 +41,7 @@
     <div class="sign-up">
       <p class="sign-up-header">Color Box News</p>
       <p class="sign-up-body">Sign up for emails to keep up on new shop additions and fun news. We'll send no more than 6 emails a year.</p>
-      <button class="btn sign-up-button">join the list</button>
+      <button href="sign-up.html" class="btn sign-up-button" onclick="window.open('sign-up.html', 'newwindow', 'width=450, height=900'); return false;">join the list</button>
     </div>
   </div>
 </div>

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="row margin-for-slider">
+  <div class="col-sm-11">
+    <p class="instagram-label gallery-label">{{ page.gallery-name }}</p>
+    <div id="gallery-carousel" class="carousel slide pull-left" data-ride="carousel">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+      	{{content}}
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control slider-arrows slider-arrow-left" href="#gallery-carousel" role="button" data-slide="prev">
+        <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+        <img src="resources/images/arrow_left.png" class="">
+      </a>
+      <a class="right carousel-control slider-arrows slider-arrow-right" href="#gallery-carousel" role="button" data-slide="next">
+        <img src="resources/images/arrow_right.png" class="">
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row">
+	<div class="col-sm-11">
+		<a href="pretty-paper.html" class="pull-right"><p class="instagram-label">back to pretty paper</p></a>
+	</div>
+</div>

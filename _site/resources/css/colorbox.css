@@ -28,9 +28,6 @@ p, p a, .panel-body{
     font-weight: 400;
 	line-height: 170%;
 }
-.panel-group{
-	/* margin-left: -16px; */
-}
 .panel{
 	border: none;
 	-webkit-box-shadow: none;
@@ -49,7 +46,6 @@ p, p a, .panel-body{
 }
 .selfie{
 	height: 115px;
-	/* width: inherit; */ 
 }
 .person{
 	text-align: center;
@@ -57,8 +53,6 @@ p, p a, .panel-body{
 /* About Page End */
 
 /* Contact Page Start */
-/*#contact-mail{width: 82px;}
-#contact-phone{width: 82px;}*/
 .contact{
 	width: 68px;
 	margin-right: 11px;
@@ -103,7 +97,6 @@ hr{
 	margin-bottom: 10px;
 }
 .submit{
-    /* margin-top: 7px; */
     color: #93958E;
 }
 /* Contact Page End */
@@ -152,7 +145,6 @@ hr{
 	background-color: transparent;
 	border: white;
 }
-
 .social_media li{
 	display: inline-block;
 	list-style-type: none;
@@ -161,7 +153,8 @@ hr{
 .sign-up{
     width: 119px;	
     margin-left: 34px;
-    margin-bottom: -19px;
+    margin-bottom: -22px;
+    margin-top: -5px;
 }
 .sign-up-header{
 
@@ -174,9 +167,10 @@ hr{
 }
 .sign-up-button{
     color: #F8F8F2;
-    font-size: 10px;
+    font-size: 12px;
     width: 119px;
     border-radius: 10px;
+    background-color: #93958E;
 }
 .CB{background-image: url("../images/social_media.png");}
 
@@ -203,14 +197,16 @@ hr{
 .footer-info{
 	margin-top: 10px;
 }
-@media(max-width:767px){
-	/* xs */
+#gallery-carousel{
+	margin-left: 0px;
+	border: 4px solid #fff;
+	border-radius: 4px;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+@media screen and (max-width: 767px) {
 	.navbar .logo{
   		width: 49px;
 		margin-top: -14px;
-	}
-	.instagram-label{
-	    /* margin-left: 19px; */
 	}
 	.frontpage-image{
 		height: 422px;
@@ -219,17 +215,21 @@ hr{
 		margin-top: 8px;
 		margin-left: 3px;
 	}
-	hr, .top-line{
-		/* margin-right: 0px; */
+	.slider-arrows{
+		height: 30px;
 	}
+	.da-thumbs{
+		margin-left: 95px;
+		margin-top: 19px;
+	}
+	.slider-arrow-left{ margin-left: -23px; }
+	.slider-arrow-right{ margin-right: -23px; }
 }
-@media(min-width:768px){
-	/* sm */
+@media screen and (min-width: 768px) {
 	.side_navigation .nav {
     	margin-right: 30px;
     	margin-top: 27px;
 	}
-	/*used to make hover show the sub menu, but ONLY for large version*/
 	ul.nav li.dropdown:hover > ul.dropdown-menu {
     	display: block;    
 	}
@@ -240,7 +240,7 @@ hr{
 	}
 	.social_media{
 		margin-right: 74px;
-		margin-top: 56px;
+		margin-top: 35px;
 	}
 	.social_media li{
 		background-size: 83px 23px;
@@ -259,15 +259,8 @@ hr{
 		height: 148px;
 		margin-left: 0px;
 	}
-	.instagram-label{
-	    /* margin-left: -19px; */
-    	
-	    /* margin-top: -43px; */
-	}	
 	.footer-info{
-		/* margin-top: -44px; */
 		margin-left: -28px;
-		/* font-size: 10px; */
 	}
 	hr, .top-line{
 		margin-right: 43px;
@@ -281,10 +274,15 @@ hr{
 		border-color: #93958E;
 		border-style: solid;
 		border-width: 2px;
-	}		
+	}
+	.da-thumbs{
+		margin-left: 26px;
+		margin-top: 8px;
+	}
+	.slider-arrow-left{ margin-left: -49px; }
+	.slider-arrow-right{ margin-right: -49px; }		
 }
-@media(min-width:992px){
-	/* md */
+@media screen and (min-width: 992px){
 	.side_navigation .nav {
     	margin-right: 23px;
     	margin-top: 28px;
@@ -296,7 +294,7 @@ hr{
 	}
 	.social_media{
 		margin-right: 72px;
-		margin-top: 45px;
+		margin-top: 35px;
 	}
 	.social_media li{
 		background-size: 83px 23px;
@@ -307,7 +305,6 @@ hr{
 	#facebook{background-position: 9px;}
 	#instagram{background-position: -28px 0;}
 	#pintrest{background-position: -64px 0;}
-
 	.main-background{
 		height: 720px;
 		margin-left: -80px;
@@ -317,18 +314,13 @@ hr{
 		height: 90px;
 		margin-left: 0px;
 	}
-	.instagram-label{
-	    /* margin-left: -58px; */
-	}	
 	.footer-info{
 		margin-left: -80px;
 		font-size: 15px;
 	}	
-	/*contact form*/
 	.submit{
     	margin-left: 15px;
 	}
-	h
 	#wholesale-submit{
 		margin-left: -50px
 	}
@@ -348,14 +340,21 @@ hr{
 	}
 	.scootched{
     	margin-left: 47px;
+	}
+	.da-thumbs{
+		margin-left: -27px;
+		margin-top: 63px;
 	}	
+	#gallery-carousel{
+		margin-left: 19px;
+	}
+	.slider-arrow-left{ margin-left: -62px;}
+	.slider-arrow-right{ margin-right: -62px; }
 }
-@media(min-width:1200px){
-	/* lg */
+@media screen and (min-width: 1200px){
 	.side-holder{
 		margin-right: 50px;
 	}
-
 	.main-background{
 		height: 801px;
 		margin-left: -130px;
@@ -367,13 +366,12 @@ hr{
 	}
 	.instagram-label{
 	    margin-left: 0;
-	    margin-top: -30px;
+	    margin-top: 34px;
 	}		
 	.footer-info{
 		margin-left: -130px;
-	
 		font-size: 16px;
-}
+	}
 	hr, .top-line{
 		margin-right: 73px;
 	}
@@ -391,6 +389,29 @@ hr{
 	}
 	.scootched{
     	margin-left: 121px;
-	}		
+	}
+	.da-thumbs{
+		margin-left: 18px;
+		margin-top: 63px;
+		/* margin-right: 34px; */
+	}
+	.slider-arrow-left{ margin-left: -76px; }
+	.slider-arrow-right{ margin-right: -76px; }		
 }
-
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.slider-arrows{
+	margin-top: 31%;
+	z-index: 50;
+}
+.gallery-label{
+    margin-left: 19px;
+	
+}
+.pp-thumb{
+    border-radius: 12px;
+}

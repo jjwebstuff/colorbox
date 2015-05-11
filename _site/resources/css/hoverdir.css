@@ -34,14 +34,14 @@
 }
 .da-thumbs li a .pretty-paper-overlay span {
 	display: block;
-	padding: 10px 0;
+	padding: 33px 0;
 	margin: 50px 0 0 0;
 	text-transform: uppercase;
 	color: rgba(255,255,255,0.9);
 	text-align: center;
 }
 .da-thumbs li a .pretty-paper-overlay {
-	top: 0px;
+	top: -185px;
 	left: 0px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease-in-out;
@@ -52,82 +52,21 @@
 	border-radius: 7px;
 }
 .da-thumbs li a:hover .pretty-paper-overlay{
-	top: -100%;
+	top: 0%;
 }
 .pretty-paper-thumb{
-	width: 154px;
-	height: 154px;
-	background: url(../images/tn_grid.png);
-	background-size: 566px;
+	width: 185px;
+	height: 185px;
+	background: url(../images/grid.png);
+	background-size: 802px;
 	background-repeat: no-repeat;
 	/* border-top-right-radius: 0px; */
 }
-#save-the-dates{
-	background-position-x: -45px;
-	background-position-y: -20px;
-}
-#rehearsal-dinners{
-	background-position-x: -212px;
-	background-position-y: -20px;
-}
-#weddings{
-	background-position-x: -378px;
-	background-position-y: -20px;
-}
-#details{
-	background-position-x: -45px;
-	background-position-y: -188px;
-}
-#galas{
-	background-position-x: -212px;
-	background-position-y: -188px;
-}
-#celebrations{
-	background-position-x: -378px;
-	background-position-y: -188px;
-}
-#corporate{
-	background-position-x: -45px;
-	background-position-y: -354px;
-}
-#baby{
-	background-position-x: -212px;
-	background-position-y: -354px;
-}
-
-#outside-the-envelope{
-	background-position-x: -378px;
-	background-position-y: -354px;
-}
-
-@media(max-width:767px){
-	/* xs */
-	.da-thumbs{
-		margin-left: 95px;
-		margin-top: 19px;
-	}
-
-}
-@media(min-width:768px){
-	/* sm */
-	.da-thumbs{
-		margin-left: 22px;
-		margin-top: 8px;
-	}
-}
-@media(min-width:992px){
-	/* md */
-	.da-thumbs{
-		margin-left: 54px;
-		margin-top: 17px;
-	}
-}
-@media(min-width:1200px){
-	/* lg */
-	.da-thumbs{
-		margin-left: 108px;
-		margin-top: 17px;
-	
-		margin-right: 34px;
-}
-}
+#celebration{background-position: 0px 0px, top ;}
+#save-the-date{background-position: -206px 0px, top ;}
+#rehearsal-dinner{background-position: -412px 0px, top ;}
+#wedding{background-position: -618px 0px, top ;}
+#galas{background-position: 0px -214px, top ;}
+#branding{background-position: -206px -214px, top ;}
+#baby{background-position: -412px -214px, top ;}
+#cute-and-lovely{background-position: -618px -214px, top ;}

@@ -9,15 +9,13 @@ var jump=function(e)
 
    $('.main-background').animate(
    {
-       scrollTop: $(target).offset().top-60
+      scrollTop: $(target).offset().top-60
    },1000,function()
    {
        location.hash = target;
    });
 
 }
-
-
 
 $(document).ready(function()
 {
@@ -73,11 +71,15 @@ $(document).ready(function()
       $('.main-background').scrollTo($("#prints"), 1000);
     });
   }
+  else if (location.pathname === "/pretty-paper.html"){
+    //if we the pretty-paper.html page don't need to scroll anywhere
+    return;
+  }
   else{
     $('.main-background').hide();
     //if we are not on the About.html page then we need to jump to the page and then
     //do a smooth scroll to the section we want
-    $('a[href^=#]').bind("click", jump);
+    // $('a[href^=#]').bind("click", jump);
   }
     if (location.hash){
         setTimeout(function(){
