@@ -121,7 +121,8 @@ hr{
 }
 .side_navigation a {
     color: #93958E;
-    margin-top: -3px;
+    margin-top: -10px;
+    /*margin-top: -3px;*/
 }
 .side_navigation .logo{
 	width: 142px;
