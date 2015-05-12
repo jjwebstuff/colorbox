@@ -119,6 +119,11 @@ hr{
 .side_navigation .nav {
     display: inline-block;
 }
+.side_navigation .sub_menu {
+    /*color: #93958E;*/
+    /*margin-top: -10px;*/
+    margin-top: -3px;
+}
 .side_navigation a {
     color: #93958E;
     margin-top: -10px;
