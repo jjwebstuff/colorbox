@@ -157,7 +157,7 @@ hr{
 	background-repeat: no-repeat;
 }
 .sign-up{
-    width: 119px;	
+    width: 119px;
     margin-left: 34px;
     margin-bottom: -22px;
     margin-top: -5px;
@@ -216,7 +216,7 @@ hr{
 	}
 	.frontpage-image{
 		height: 422px;
-	}	
+	}
 	.footer-info{
 		margin-top: 8px;
 		margin-left: 3px;
@@ -237,7 +237,7 @@ hr{
     	margin-top: 27px;
 	}
 	ul.nav li.dropdown:hover > ul.dropdown-menu {
-    	display: block;    
+    	display: block;
 	}
 	.side_navigation .logo{
 		padding-right: 25px;
@@ -286,13 +286,13 @@ hr{
 		margin-top: 8px;
 	}
 	.slider-arrow-left{ margin-left: -49px; }
-	.slider-arrow-right{ margin-right: -49px; }		
+	.slider-arrow-right{ margin-right: -49px; }
 }
 @media screen and (min-width: 992px){
 	.side_navigation .nav {
     	margin-right: 23px;
     	margin-top: 28px;
-	}	
+	}
 	.side_navigation .logo{
 		padding-right: 25px;
 		margin-top: -27px;
@@ -323,7 +323,7 @@ hr{
 	.footer-info{
 		margin-left: -80px;
 		font-size: 15px;
-	}	
+	}
 	.submit{
     	margin-left: 15px;
 	}
@@ -350,7 +350,7 @@ hr{
 	.da-thumbs{
 		margin-left: -27px;
 		margin-top: 63px;
-	}	
+	}
 	#gallery-carousel{
 		margin-left: 19px;
 	}
@@ -373,7 +373,7 @@ hr{
 	.instagram-label{
 	    margin-left: 0;
 	    margin-top: 34px;
-	}		
+	}
 	.footer-info{
 		margin-left: -130px;
 		font-size: 16px;
@@ -402,7 +402,7 @@ hr{
 		/* margin-right: 34px; */
 	}
 	.slider-arrow-left{ margin-left: -76px; }
-	.slider-arrow-right{ margin-right: -76px; }		
+	.slider-arrow-right{ margin-right: -76px; }
 }
 .carousel-control.left{
 	background-image: none;
@@ -416,8 +416,22 @@ hr{
 }
 .gallery-label{
     margin-left: 19px;
-	
+
 }
 .pp-thumb{
     border-radius: 12px;
 }
+/*Main page modal*/
+.modal-header { border-bottom: none; }
+.modal-footer { border-top: none; }
+.modal-content {
+	border-radius: 0px;
+	background-color:#00B6DE;
+}
+/*#specialModal{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-top: -125px;
+	margin-left: -300px;
+}*/
