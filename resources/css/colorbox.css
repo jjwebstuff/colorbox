@@ -11,7 +11,13 @@ h1{
     font-weight: 400;
     color: #00B6DE;
 }
-
+.raleway-600{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.friends{ letter-spacing: 2px; }
+.top-pad-10{ padding-top: 20px;}
 /* About Page Start */
 p, p a, .panel-body{
 	color: #93958E;
@@ -422,6 +428,8 @@ hr{
     border-radius: 12px;
 }
 /*Main page modal*/
+.text-white {color: white; }
+.modal-dialog { color: white; }
 .modal-header { border-bottom: none; }
 .modal-footer { border-top: none; }
 .modal-content {
