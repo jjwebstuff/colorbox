@@ -13,7 +13,7 @@ title: Color Box
 	<div class="col-md-4 marginleft"> <!-- PHONE PIC-->
 		<img class="pull-left contact" src="resources/images/phone.png">
 		<p class="contact-info">972.743.8455</p>
-		<p class="contact-info">M - F / 9 am - 5 pm</p> 
+		<p class="contact-info">M - F / 9 am - 5 pm</p>
 		<p class="contact-info">By appointment only</p>
 	</div>
 	<div class="col-md-4 marginleft"> <!-- ENVELOPE PIC-->
@@ -34,14 +34,18 @@ title: Color Box
 </div>
 <div class="row">
 	<!-- <form action="http://getsimpleform.com/messages?form_api_token=bb5956e8d88579032cdffce518d68bd9" method="post"> -->
-	<form action="http://getsimpleform.com/messages?form_api_token=4bee164fc63804038cb53e1faf28f8ea" method="post">
-		<input type='hidden' name='redirect_to' value='http://www.colorboxletterpress.com/thank-you.html' />
+	<!-- <form action="http://getsimpleform.com/messages?form_api_token=4bee164fc63804038cb53e1faf28f8ea" method="post"> -->
+	<form action="https://formspree.io/rhonda@colorboxletterpress.com" method="POST">
+		<!-- <input type='hidden' name='redirect_to' value='http://www.colorboxletterpress.com/thank-you.html' /> -->
+		<input type="hidden" name="_next" value="http://www.colorboxletterpress.com/thank-you.html" />
+		<input type="hidden" name="_subject" value="New Contact Submission" />
 		<div class="col-md-5 col-sm-11">
 	    	<input class="form-control" id="name" placeholder="name(s)" name="name(s)">
 	    	<input class="form-control" id="email" placeholder="email" name="email" type="email">
 	    	<input class="form-control" id="phone" placeholder="phone" name="phone" type="phone">
 	    	<input class="form-control" id="address" placeholder="address" name="address" type="address">
 	    	<input class="form-control" id="address2" placeholder="city/state/zip" name="city/state/zip">
+				<input class="form-control" id="nothinghere" placeholder="place" name="_gotcha" type="text" style="display:none" />
 		    <div class="clearfix"></div>
 		    <div class="more">
 				<p>
@@ -52,7 +56,7 @@ title: Color Box
 		    	<label>
 					<input type="checkbox" name="save the date?">save the date (corporate / wedding)
 		  		</label>
-	    	</div>		    
+	    	</div>
 		    <div class="checkbox">
 			    <label>
 					<input type="checkbox" name="invitation suite?">invitation suite (corporate / wedding)
@@ -101,7 +105,7 @@ title: Color Box
 	    	<input class="form-control" id="budget" placeholder="budget" name="budget">
 	    	<input class="form-control" id="quantity" placeholder="quantity" name="quantity">
 
-		    
+
 		    <div class="more">
 				<textarea class="form-control" id="tell_us_more" rows="9" placeholder="tell us more" name="tell us more"></textarea>
 		    </div>
