@@ -160,9 +160,50 @@
 <div class="row"><!-- FAQ -->
   <div class="col-xs-12 col-sm-11">
   	<h1>WHOLESALE INQUIRY FORM</h1>
-  	<p>Interested in stocking our paper goods in your store? Amazing!<br>Drop us a line and we’ll make it easy to place an order.</p>
-  	<a href="mailto:rhonda@colorboxletterpress.com?subject=Color Box: Wholesale">rhonda@colorboxletterpress.com</a>
+  	<p>Interested in stocking our paper goods in your store? Amazing!<br>Fill in this quick form.</p>
+  	<!-- <a href="mailto:rhonda@colorboxletterpress.com?subject=Color Box: Wholesale">rhonda@colorboxletterpress.com</a> -->
   </div>
+</div>
+<div class="row">
+	<form action="https://formspree.io/rhonda@colorboxletterpress.com" method="POST">
+		<input type="hidden" name="_next" value="http://www.colorboxletterpress.com/thank-you.html" />
+		<input type="hidden" name="_subject" value="New Wholesale Submission" />
+		<div class="col-md-5 col-sm-11">
+	    	<input class="form-control" id="firstname" placeholder="buyer name (first)" name="first name">
+	    	<input class="form-control" id="storename" placeholder="store name" name="store name">
+    </div>
+    <div class="col-md-offset-1 col-md-5 col-sm-11">
+        <input class="form-control" id="lastname" placeholder="buyer name (last)" name="last name">
+        <input class="form-control" id="phone" placeholder="phone" name="phone" type="phone">
+    </div>
+    <div class="col-sm-11">
+	    	<input class="form-control" id="email" placeholder="email address" name="email" type="email">
+	    	<input class="form-control" id="website" placeholder="website" name="website">
+        <input class="form-control" id="nothinghere" placeholder="place" name="_gotcha" type="text" style="display:none" />
+		    <div class="more">
+				<p>account type</p>
+			</div>
+			<div class="radio">
+		    <label><input type="radio" name="type" value="store">brick & mortar retailer</label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="type" value="online?">online retailer</label>
+      </div>
+      <div class="radio">
+		    <label><input type="radio" name="type" value="brick & online?">online retailer + brick & mortar</label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="type" value="rep/distributor?">rep/distributor</label>
+      </div>
+      <div class="radio">
+		    <label><input type="radio" name="type" value="other?">other</label>
+	    </div>
+      <textarea class="form-control" id="address" placeholder="full address" name="address" type="address" rows="3"></textarea>
+    </div>
+    <div class="col-xs-11">
+        <button id="wholesale-form-submit" type="submit" class="btn btn-default form-control">SUBMIT</button>
+    </div>
+	</form>
 </div>
 
 			    	</div>
