@@ -467,3 +467,8 @@ hr{
 hr.find-us{
 	border-top: 1.5px solid #93958E;
 }
+img.catalog
+{
+	width: 25%; 
+	height: auto;
+}
